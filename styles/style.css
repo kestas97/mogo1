@@ -179,6 +179,8 @@
 }
 .section .container {
   border: 1px solid red;
+  font-size: 0;
+  box-sizing: border-box;
 }
 .section .section-header .sub-title {
   text-align: center;
@@ -207,4 +209,22 @@
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #cccccc;
+}
+.section .section-header .images-container {
+  max-width: 100%;
+  width: 90%;
+  border: 1px solid red;
+  box-sizing: border-box;
+  font-size: 0;
+  margin: 0 auto;
+  margin-top: 103px;
+  text-align: center;
+}
+.section .section-header .img-responsive {
+  display: inline-block;
+  height: auto;
+  text-align: center;
+  width: 380px;
+  margin: 0 31px 0 0;
+  vertical-align: top;
 }/*# sourceMappingURL=style.css.map */
